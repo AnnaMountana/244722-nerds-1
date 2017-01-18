@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Anna Ueland](https://up.htmlacademy.ru/htmlcss/16/user/244722).
-* Наставник: [Иван :) Кузьмичёв](https://htmlacademy.ru/profile/id342395).
+* Наставник: [Иван :-) Кузьмичёв](https://htmlacademy.ru/profile/id342395).
 
 ---
 
