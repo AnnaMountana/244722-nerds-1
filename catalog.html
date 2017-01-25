@@ -31,65 +31,63 @@
             <div class="catalog-content">
                 <div class="catalog-content-left">
                     <form>
-                        <div class="range-ctrl">
+                        <div class="range">
                             <div class="item-title">Стоимость:</div>
-                            <div class="scale-bar">
-                                    <div class="range-slider">
-                                        <div class="min-toggle"></div>
-                                        <div class="max-toggle"></div>
+                                <div class="range-ctrl">
+                                    <div class="range-bar">
+                                        <div class="range-bar-active"></div>
                                     </div>
-                                    <div class="price-ctrl">
-                                        <div class="min-price">От</div>
-                                        <input type="number" value="0">
-                                        <div class="max-price">До</div>
-                                        <input type="number" value="15000">
-                                    </div>
-                            </div>
+                                    <div class="toggle min-toggle"></div>
+                                    <div class="toggle max-toggle"></div>
+                                </div>
+                                <div class="range-price">
+                                    От<input type="number" value="0">
+                                    До<input type="number" value="15000">
+                                </div>
                         </div>
-                        <div class="range-filter">
-                            <div class="item-title">Сетка</div>
-                        </div>
-                        <div class="filter-subtype">
-                            <input type="radio" value="Адаптивная" id="Adaptive">
-                            <label for="Adaptive">Адаптивная</label>
-                        </div>
-                        <div class="filter-subtype">
-                            <input type="radio" value="Фиксированная" id="Fixed">
-                            <label for="Fixed">Фиксированная</label>
-                        </div>
-                        <div class="filter-subtype">
-                            <input type="radio" value="Резиновая" id="Rubber">
-                            <label for="Rubber">Резиновая</label>
-                        </div>
-                        <div class="range-filter">
+                        <div class="item-title">Сетка</div>
+                            <ul>
+                                <li>
+                                    <input type="radio" value="Адаптивная" id="Adaptive">
+                                    <label for="Adaptive">Адаптивная</label>
+                                </li>
+                                <li>
+                                    <input type="radio" value="Фиксированная" id="Fixed">
+                                    <label for="Fixed">Фиксированная</label>
+                                </li>
+                                <li>
+                                    <input type="radio" value="Резиновая" id="Rubber">
+                                    <label for="Rubber">Резиновая</label>
+                                </li>
+                            </ul>
                             <div class="item-title">Особенности</div>
-                        </div>
-                        <div class="filter-subtype">
-                            <input type="checkbox" value="Слайдер" id="Slider">
-                            <label for="Slider">Слайдер</label>
-                        </div>
-                        <div class="filter-subtype">
-                            <input type="checkbox" value="Блок преимуществ" id="Benefits">
-                            <label for="Benefits">Блок преимуществ</label>
-                        </div>
-                        <div class="filter-subtype">
-                            <input type="checkbox" value="Новости" id="News">
-                            <label for="News">Новости</label>
-                        </div>
-                        <div class="filter-subtype">
-                            <input type="checkbox" value="Галерея" id="Gallery">
-                            <label for="Gallery">Галерея</label>
-                        </div>
-                        <div class="filter-subtype">
-                            <input type="checkbox" value="Корзина" id="Basket">
-                            <label for="Basket">Корзина</label>
-                        </div>
-                        <button>Показать</button>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" value="Слайдер" id="Slider">
+                                    <label for="Slider">Слайдер</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" value="Блок преимуществ" id="Benefits">
+                                    <label for="Benefits">Блок преимуществ</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" value="Новости" id="News">
+                                    <label for="News">Новости</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" value="Галерея" id="Gallery">
+                                    <label for="Gallery">Галерея</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" value="Корзина" id="Basket">
+                                    <label for="Basket">Корзина</label>
+                                </li>
+                            </ul>
+                            <button class="btn">Показать</button>
                     </form>
                 </div>
                 <div class="catalog-content-right">
-                    <div class="content-sorting">
-                        <div class="item-title">Сортировать</div>
+                    <div class="sort">Сортировать:
                           <a href="#">По цене</a>
                           <a href="#">По типу</a>
                           <a href="#">По названию</a>
@@ -97,44 +95,43 @@
                               <a href=«#» class="arrow-up">Вниз</a>
                               <a href=«#» class="arrow-down">Вверх</a>
                           </div>
-                          </div>
+                    </div>
                           <div class="catalog-content">
                               <div class="catalog-items">
-                                  <ul>
-                                      <li class="catalog-item">
-                                          <div class="item-header"></div>
-                                          <div class="item-image">
-                                              <img width="360" height="576" src="img/catalog1.jpg" alt="Sedona">
-                                          </div>
-                                          <div class="item-section">
-                                              <div class="item-title">Sedona</div>
-                                              <p>Информационный сайт для туристов</p>
-                                              <a href="" class="button">9900 руб.</a>
-                                          </div>
-                                      </li>
-                                      <li class="catalog-item">
-                                          <div class="item-header"></div>
-                                          <div class="item-image">
-                                              <img width="360" height="576" src="img/catalog2.jpg" alt="Pink app">
-                                            </div>
-                                            <div class="item-section">
-                                                <div class="item-title">Pink app</div>
-                                                <p>Продуктовый лендинг приложения для iOS и Android</p>
-                                                <a href="" class="button">9900 руб.</a>
-                                            </div>
-                                      </li>
-                                      <li class="catalog-item">
-                                          <div class="item-header"></div>
-                                          <div class="item-image">
-                                              <img width="360" height="576" src="img/catalog3.jpg" alt="Barbershop">
-                                          </div>
-                                          <div class="item-section">
-                                              <div class="item-title">Barbershop</div>
-                                              <p>Сайт салоны красоты. Для мужчин, да.</p>
-                                              <a href="" class="button">9900 руб.</a>
-                                            </div>
-                                      </li>
-                                      <li class="catalog-item">
+                                    <div class="catalog-item">
+                                        <div class="item-header"></div>
+                                        <div class="item-image">
+                                            <img width="360" height="576" src="img/catalog1.jpg" alt="Sedona">
+                                        </div>
+                                        <div class="item-section">
+                                            <div class="item-title">Sedona</div>
+                                            <p>Информационный сайт для туристов</p>
+                                            <a href="" class="button">9900 руб.</a>
+                                        </div>
+                                    </div>
+                                    <div class="catalog-item">
+                                        <div class="item-header"></div>
+                                        <div class="item-image">
+                                            <img width="360" height="576" src="img/catalog2.jpg" alt="Pink app">
+                                        </div>
+                                        <div class="item-section">
+                                            <div class="item-title">Pink app</div>
+                                            <p>Продуктовый лендинг приложения для iOS и Android</p>
+                                            <a href="" class="button">9900 руб.</a>
+                                        </div>
+                                    </div>
+                                    <div class="catalog-item">
+                                        <div class="item-header"></div>
+                                        <div class="item-image">
+                                            <img width="360" height="576" src="img/catalog3.jpg" alt="Barbershop">
+                                        </div>
+                                        <div class="item-section">
+                                            <div class="item-title">Barbershop</div>
+                                            <p>Сайт салоны красоты. Для мужчин, да.</p>
+                                            <a href="" class="button">9900 руб.</a>
+                                        </div>
+                                    </div>
+                                    <div class="catalog-item">
                                           <div class="item-header"></div>
                                           <div class="item-image">
                                               <img width="360" height="576" src="img/catalog4.jpg" alt="Mishka">
@@ -144,8 +141,8 @@
                                               <p>Интернет-магазин вязаных игрушек</p>
                                               <a href="" class="button">9900 руб.</a>
                                           </div>
-                                      </li>
-                                      <li class="catalog-item">
+                                      </div>
+                                      <div class="catalog-item">
                                           <div class="item-header"></div>
                                           <div class="item-image">
                                               <img width="360" height="576" src="img/catalog5.jpg" alt="A Plus">
@@ -155,8 +152,8 @@
                                               <p>Лендинг курсов повышения квалификации</p>
                                               <a href="" class="button">9900 руб.</a>
                                           </div>
-                                      </li>
-                                      <li class="catalog-item">
+                                      </div>
+                                      <div class="catalog-item">
                                           <div class="item-header"></div>
                                           <div class="item-image">
                                               <img width="360" height="576" src="img/catalog6.jpg" alt="Кваст">
@@ -166,18 +163,17 @@
                                               <p>Промо-сайт производителя крафтового кваса</p>
                                               <a href="" class="button">9900 руб.</a>
                                           </div>
-                                      </li>
-                                  </ul>
+                                      </div>
                               </div>
                           </div>
                 </div>
             </div>
             <div class="pagination">
                 <ul>
-                    <li class="btn"><a href="#">1</a></li>
-                    <li class="btn"><a href="#">2</a></li>
-                    <li class="btn"><a href="#">3</a></li>
-                    <li class="btn"><a href="#">Следующая</a></li>
+                    <li class="btn current-page">1</li>
+                    <li><a class="btn" href="#">2</a></li>
+                    <li><a class="btn" href="#">3</a></li>
+                    <li><a class="btn" href="#">Следующая</a></li>
                 </ul>
             </div>
         </main>
